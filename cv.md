@@ -36,5 +36,18 @@ let countBits = function (n) {
 ```
 ___
 
+#### Practice:
+_I have successfully completed the course stage0 in Rss._
+
+___
+
+#### Education:
+[Course stage0 in Rss](https://rs.school/js-stage0/). Books about [HTML, CSS](http://htmlbook.ru/), [JavaScript](https://learn.javascript.ru/) and courses on YouTube.
+
+___
+
+#### English level:
+A2. I study at an [English school](https://www.instagram.com/english.gomel/?hl=ru).
+
 
 
