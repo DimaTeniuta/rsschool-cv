@@ -13,5 +13,28 @@ _Hello! My name is Dima, I am a future Front-end developer. I am good at assimil
 
 ___
 
+#### Hard skils:
+* HTML
+* CSS
+* JavaScript
+* Git
+* Figma
+
+___
+
+#### Exempl code:
+```
+let countBits = function (n) {
+  result = n.toString(2).split("");
+  let sum = result.filter((item) => {
+    if (item === "1") {
+      return item;
+    };
+  });
+  return sum.length;
+};
+```
+___
+
 
 
