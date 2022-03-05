@@ -71,7 +71,7 @@ body {
 }
 
 .container-sections {
-  background-color: #D3E3FC;
+  background-color: #e2ecfb;
 }
 
 /* aside */
@@ -187,7 +187,7 @@ max-width: 800px;
 }
 
 .line-about {
-  width: 60%;
+  width: 38%;
   border: 1px solid #00887A;
   margin: 0 0 30px 10px;
   border-radius: 2px;
@@ -199,6 +199,68 @@ max-width: 800px;
   margin: 0 0 0 20px;
   line-height: 1.2;
   color: #181717;
+}
+
+/* Skills */
+.title-skills {
+  color: #00887A;
+  font-size: 30px;
+  margin: 50px 0 5px 5px;
+}
+
+.line-skills {
+  width: 80%;
+  border: 1px solid #00887A;
+  margin: 0 0 30px 0;
+  border-radius: 2px;
+}
+
+.skills-bar-wrap {
+  max-width: 460px;
+  width: 100%;
+  margin: 0 0 0 40px;
+}
+
+.skills-bar p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.container-skills-bar {
+  font-size: 18px;
+  background-color: #5f6366;
+}
+
+.skill {
+  text-align: right;
+  padding: 0 20px 0 0;
+  line-height: 30px;
+  color: white;
+}
+
+.html {
+  width: 80%;
+  background-color: #99ced3;
+}
+
+.css {
+  width: 75%;
+  background-color: #99ced3;
+}
+
+.js {
+  width: 55%;
+  background-color: #99ced3;
+}
+
+.git {
+  width: 70%;
+  background-color: #99ced3;
+}
+
+.figma {
+  width: 60%;
+  background-color: #99ced3;
 }
 
 
