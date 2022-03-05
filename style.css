@@ -18,24 +18,29 @@ ul li {
 }
 
 body {
-  font-family: 'Merriweather', serif;
-  font-family: 'Roboto', sans-serif;
-  background-color: #86B3D1;
+  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 .merr {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
+}
+
+.rob {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  
 }
 
+/* header */
 .header {
-  background-color: #5F6366;
+  background-color: #5f6366;
 }
 
 .nav-header {
@@ -47,10 +52,123 @@ body {
 
 .link-header {
   font-size: 26px;
-  color: #99CED3;
+  color: #99ced3;
 }
 
 .link-header:hover {
   text-decoration: underline;
   transition: 1s;
 }
+
+/* main */
+.main {
+  display: grid;
+  grid-template-columns: 400px 5px 2fr;
+}
+
+.line-vertical {
+  background-color: #edb5bf;
+}
+
+.container-sections {
+  background-color: #86b3d1;
+  height: 100px;
+}
+
+.aside {
+  background-color: #4d6d9a;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 200px;
+  height: 280px;
+  background-image: url(./assets/img/avatar-removebg-preview\ 1.jpg);
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin: 50px 0 20px 0;
+}
+
+.name {
+font-size: 20px;
+color: #dfd5d5;
+padding: 0 0 10px 0;
+}
+
+.profession {
+  font-size: 18px;
+  font-weight: 400;
+  color: #dfd5d5;
+  margin: 0 0 50px 0;
+}
+
+
+.contacts {
+color: #dfd5d5;
+margin: 0 0 0 20px;
+}
+
+.title-contacts {
+  font-size: 22px;
+  padding: 0 0 5px 10px;
+}
+
+.line-contacts {
+  border: 2px solid #dfd5d5;
+  margin: 0 40px 0 0;
+  border-radius: 2px;
+}
+
+/* list-contact */
+.list-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-contact {
+display: flex;
+align-items: center;
+margin: 20px 0 0 0;
+}
+
+.img-contact {
+  margin: 0 30px 0 30px;
+}
+
+.text-contact {
+  color: #dfd5d5;
+}
+
+.phone {
+  width: 40px;
+  height: 40px;
+  background-image: url(./assets/svg/Phone_black.svg);
+  background-repeat: no-repeat;
+}
+
+.e-mail {
+  width: 40px;
+  height: 40px;
+  background-image: url(./assets/svg/Mail_black.svg);
+  background-repeat: no-repeat;
+}
+
+.discord {
+  width: 40px;
+  height: 40px;
+  background-image: url(./assets/svg/Discord_black.svg);
+  background-repeat: no-repeat;
+}
+
+.geo-location {
+  width: 40px;
+  height: 40px;
+  background-image: url(./assets/svg/Geo_black.svg);
+  background-repeat: no-repeat;
+}
+
