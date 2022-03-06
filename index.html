@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>cv</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -87,18 +87,18 @@
           <section id="about">
             <div class="about">
               <h2 class="title-about merr">About me</h2>
-            <div class="line-about"></div>
-            <p class="text-about rob">
-              Hello, I'm Dima. I am 32 years. I am a future frontend developer.
-              A year and a half ago, I started learning Javascript. I liked the
-              profession of a developer because every day you learn something
-              new and with experience you begin to put it into practice. I
-              believe that my thirst for knowledge and my commitment to the
-              cause will help me become a good developer.
-            </p>
+              <div class="line-about"></div>
+              <p class="text-about rob">
+                Hello, I'm Dima. I am 32 years. I am a future frontend
+                developer. A year and a half ago, I started learning Javascript.
+                I liked the profession of a developer because every day you
+                learn something new and with experience you begin to put it into
+                practice. I believe that my thirst for knowledge and my
+                commitment to the cause will help me become a good developer.
+              </p>
             </div>
           </section>
-          <section id="exemple"></section>
+       
           <section id="skills">
             <div class="skills-bar-wrap">
               <h2 class="title-skills merr">Skills</h2>
@@ -108,36 +108,60 @@
                   <li>
                     <p>HTML</p>
                     <div class="container-skills-bar">
-                      <div class="skill html">80%</div>
+                      <div class="skill html"></div>
                     </div>
                   </li>
                   <li>
                     <p>CSS</p>
                     <div class="container-skills-bar">
-                      <div class="skill css">75%</div>
+                      <div class="skill css"></div>
                     </div>
                   </li>
                   <li>
                     <p>JavaScript</p>
                     <div class="container-skills-bar">
-                      <div class="skill js">55%</div>
+                      <div class="skill js"></div>
                     </div>
                   </li>
                   <li>
                     <p>Git</p>
                     <div class="container-skills-bar">
-                      <div class="skill git">70%</div>
+                      <div class="skill git"></div>
                     </div>
                   </li>
                   <li>
                     <p>Figma</p>
                     <div class="container-skills-bar">
-                      <div class="skill figma">60%</div>
+                      <div class="skill figma"></div>
                     </div>
                   </li>
                 </ul>
               </div>
             </div>
+
+            <div class="exemple-code">
+              <h2 class="title-exemple merr">Exemple code</h2>
+              <div class="line-exemple-code"></div>
+              <div class="code rob">
+                <pre class="text-code"><code>
+function maxTriSum(numbers){
+ let sum = [];
+ let count = 0;
+ let result = [...new Set(numbers)];
+ result = result.sort((a, b) => a - b);
+ sum = result.splice(-3)
+ sum.forEach(el => {
+  count += el;
+ });
+ return count;
+};
+                </code></pre>
+              </div>
+            </div>
+          </section>
+
+          <section id="exemple">
+         
           </section>
           <section id="aducation"></section>
         </div>
