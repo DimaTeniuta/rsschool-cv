@@ -95,9 +95,9 @@ body {
 }
 
 .name {
-font-size: 20px;
-color: #dfd5d5;
-padding: 0 0 10px 0;
+  font-size: 20px;
+  color: #dfd5d5;
+  padding: 0 0 10px 0;
 }
 
 .profession {
@@ -107,9 +107,10 @@ padding: 0 0 10px 0;
   margin: 0 0 50px 0;
 }
 
+/* contacts */
 .contacts {
-color: #dfd5d5;
-margin: 0 0 0 20px;
+  color: #dfd5d5;
+  margin: 0 0 0 20px;
 }
 
 .title-contacts {
@@ -130,9 +131,9 @@ margin: 0 0 0 20px;
 }
 
 .wrap-contact {
-display: flex;
-align-items: center;
-margin: 20px 0 0 0;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 0;
 }
 
 .img-contact {
@@ -173,6 +174,40 @@ margin: 20px 0 0 0;
   background-repeat: no-repeat;
 }
 
+/* languages */
+.wrap-languages {
+  margin: 100px 0 0 20px;
+}
+
+.title-languages {
+  font-size: 22px;
+  padding: 0 0 5px 10px;
+  color: #dfd5d5;
+}
+
+.line-languages {
+  border: 1px solid #dfd5d5;
+  margin: 0 40px 0 0;
+  border-radius: 2px;
+  margin: 0 40px 20px 0;
+}
+
+.list-lang {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 30px;
+}
+
+.list-lang > li {
+  margin: 10px 0;
+}
+
+.text-lang {
+  font-size: 18px;
+  font-weight: 300;
+  color: #dfd5d5;
+}
+
 /* about */
 .about {
   max-width: 900px;
@@ -180,15 +215,15 @@ margin: 20px 0 0 0;
 }
 
 .title-about {
-color: #00887A;
-font-size: 30px;
-margin: 0 0 5px 20px;
-max-width: 800px;
+  color: #00887a;
+  font-size: 30px;
+  margin: 0 0 5px 20px;
+  max-width: 800px;
 }
 
 .line-about {
   width: 280px;
-  border: 1px solid #00887A;
+  border: 1px solid #00887a;
   margin: 0 0 30px 10px;
   border-radius: 2px;
 }
@@ -207,14 +242,14 @@ max-width: 800px;
 }
 
 .title-skills {
-  color: #00887A;
+  color: #00887a;
   font-size: 30px;
   margin: 50px 0 5px 5px;
 }
 
 .line-skills {
   width: 280px;
-  border: 1px solid #00887A;
+  border: 1px solid #00887a;
   margin: 0 0 30px 0;
   border-radius: 2px;
 }
@@ -227,8 +262,10 @@ max-width: 800px;
 
 .skills-bar p {
   font-size: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
   line-height: 2;
-  color: #5f6366;
+  color: #171717;
 }
 
 .container-skills-bar {
@@ -281,20 +318,21 @@ max-width: 800px;
 }
 
 .title-exemple {
-  color: #00887A;
+  color: #00887a;
   font-size: 30px;
   margin: 50px 0 5px 5px;
 }
 
 .line-exemple-code {
   width: 280px;
-  border: 1px solid #00887A;
+  border: 1px solid #00887a;
   margin: 0 0 30px 0;
   border-radius: 2px;
 }
 
 .code {
   font-size: 20px;
+  font-weight: 300;
   color: #5f6366;
 }
 
@@ -308,14 +346,14 @@ max-width: 800px;
 }
 
 .title-work {
-  color: #00887A;
+  color: #00887a;
   font-size: 30px;
   margin: 50px 0 5px 5px;
 }
 
 .line-work {
   width: 280px;
-  border: 1px solid #00887A;
+  border: 1px solid #00887a;
   margin: 0 0 30px 0;
   border-radius: 2px;
 }
@@ -347,15 +385,44 @@ max-width: 800px;
 }
 
 .link-exemple {
-margin: 0 40px 0 0;
+  margin: 0 40px 0 0;
 }
 
 .link-exemple:hover {
   animation: icons-live 1s ease-in-out;
 }
 
-
 .img-exemple {
-  filter: invert(26%) sepia(100%) saturate(1781%) hue-rotate(156deg) brightness(93%) contrast(102%);
+  filter: invert(26%) sepia(100%) saturate(1781%) hue-rotate(156deg)
+    brightness(93%) contrast(102%);
 }
 
+.text-exemple {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #181717;
+}
+
+/* aducation */
+.wrap-aducation {
+  margin: 20px 0 0 40px;
+}
+
+.title-aducation {
+  color: #00887a;
+  font-size: 30px;
+  margin: 50px 0 5px 5px;
+}
+
+.line-aducation {
+  width: 280px;
+  border: 1px solid #00887a;
+  margin: 0 0 30px 0;
+  border-radius: 2px;
+}
+
+.list-aducation {
+  font-size: 18px;
+  font-weight: 300;
+}
