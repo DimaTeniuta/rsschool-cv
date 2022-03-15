@@ -46,8 +46,8 @@ ___
 
 ___
 
-#### English level:
-A2. I study at an [English school](https://www.instagram.com/english.gomel/?hl=ru).
+#### Languages:
+Russian - Native. English - A2. Belarusian - C1.
 
 
 
