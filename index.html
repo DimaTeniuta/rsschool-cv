@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav-header">
+          <ul>
+            <li>
+              <a class="link-header merr" href="#about">about</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="link-header merr" href="#contact">contacts</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="link-header merr" href="#skills">skills</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="link-header merr" href="#exemple">exemple</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a class="link-header merr" href="#aducation">aducation</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <aside class="aside">
+          <div class="avatar">
+            <div class="photo"></div>
+            <div class="name merr">
+              <h1>Dzmitry Tsianiuta</h1>
+            </div>
+            <p class="profession merr">Web Developer</p>
+          </div>
+
+          <div id="contact">
+            <div class="contacts">
+              <h2 class="title-contacts merr">Contacts</h2>
+              <div class="line-contacts"></div>
+            </div>
+
+            <div class="list-contact">
+              <ul>
+                <li class="wrap-contact">
+                  <div class="img-contact phone"></div>
+                  <div class="text-contact rob">+375(44)791-14-20</div>
+                </li>
+                <li class="wrap-contact">
+                  <div class="img-contact e-mail"></div>
+                  <div class="text-contact rob">DTeniuta@gmail.com</div>
+                </li>
+                <li class="wrap-contact">
+                  <div class="img-contact discord"></div>
+                  <div class="text-contact rob">@Dima Teniuta#2476</div>
+                </li>
+                <li class="wrap-contact">
+                  <div class="img-contact geo-location"></div>
+                  <div class="text-contact rob">Gomel, Belarus</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="languages">
+            <div class="wrap-languages">
+              <h2 class="title-languages merr">Languages</h2>
+              <div class="line-languages"></div>
+            </div>
+            <ul class="list-lang">
+              <li>
+                <span class="text-lang rob">English - A2</span>
+              </li>
+              <li>
+                <span class="text-lang rob">Belarusian - C1</span>
+              </li>
+              <li>
+                <span class="text-lang rob">Russian - Native</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="line-vertical"></div>
+
+        <div class="container-sections">
+          <section id="about">
+            <div class="about">
+              <h2 class="title-about merr">About me</h2>
+              <div class="line-about"></div>
+              <p class="text-about rob">
+                Hello, I'm Dima. I am 32 years. I am a future frontend
+                developer. A year and a half ago, I started learning Javascript.
+                I liked the profession of a developer because every day you
+                learn something new and with experience you begin to put it into
+                practice. I believe that my thirst for knowledge and my
+                commitment to the cause will help me become a good developer.
+              </p>
+            </div>
+          </section>
+
+          <section id="skills">
+            <div class="skills-bar-wrap">
+              <h2 class="title-skills merr">Skills</h2>
+              <div class="line-skills"></div>
+              <div class="skills-bar">
+                <ul>
+                  <li>
+                    <p>HTML</p>
+                    <div class="container-skills-bar">
+                      <div class="skill html"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>CSS</p>
+                    <div class="container-skills-bar">
+                      <div class="skill css"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>JavaScript</p>
+                    <div class="container-skills-bar">
+                      <div class="skill js"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Git</p>
+                    <div class="container-skills-bar">
+                      <div class="skill git"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <p>Figma</p>
+                    <div class="container-skills-bar">
+                      <div class="skill figma"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="exemple-code">
+              <h2 class="title-exemple merr">Code exemple</h2>
+              <div class="line-exemple-code"></div>
+              <div class="code rob">
+                <pre class="text-code rob"><code>
+function maxTriSum(numbers){
+ let sum = [];
+ let count = 0;
+ let result = [...new Set(numbers)];
+ result = result.sort((a, b) => a - b);
+ sum = result.splice(-3);
+ sum.forEach(el => {
+  count += el;
+ });
+ return count;
+};
+                </code></pre>
+              </div>
+            </div>
+          </section>
+
+          <section id="exemple">
+            <div class="wrap-title-work">
+              <h2 class="title-work merr">Work exemples</h2>
+              <div class="line-work"></div>
+            </div>
+
+            <div class="wrap-exemple">
+              <ul>
+                <li class="list-exemple">
+                  <a
+                    class="link-exemple"
+                    href="https://dimateniuta.github.io/rss-stage0/custom-video/"
+                    target="_blank"
+                  >
+                    <img
+                      class="img-exemple"
+                      src="./assets/svg/video.svg"
+                      alt="video"
+                    />
+                  </a>
+                  <div class="text-exemple">
+                    <p>
+                      Website Portfolio. Implemented: changing the images of the
+                      seasons by clicking on the corresponding button, <br />
+                      translating the page into two languages, changing the dark
+                      and light theme, responsive menu at 768px <br />
+                      screen resolution, custom video player.
+                    </p>
+                  </div>
+                </li>
+                <li class="list-exemple">
+                  <a
+                    class="link-exemple"
+                    href="https://dimateniuta.github.io/rss-stage0/image-gallery/"
+                    target="_blank"
+                  >
+                    <img
+                      class="img-exemple"
+                      src="./assets/svg/gallery.svg"
+                      alt="gallery"
+                    />
+                  </a>
+                  <div class="text-exemple">
+                    <p>
+                      Image-gallery. At the request of the API, we get the
+                      necessary pictures.
+                    </p>
+                  </div>
+                </li>
+                <li class="list-exemple">
+                  <a
+                    class="link-exemple"
+                    href="https://dimateniuta.github.io/rss-stage0/tic-tac-toe/"
+                    target="_blank"
+                  >
+                    <img
+                      class="img-exemple"
+                      src="./assets/svg/game.svg"
+                      alt="game"
+                    />
+                  </a>
+                  <div class="text-exemple">
+                    <p>Tic-tac-toe game.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="aducation">
+            <div class="wrap-aducation">
+              <h2 class="title-aducation merr">Aducation</h2>
+              <div class="line-aducation"></div>
+
+              <ul>
+                <li>
+                  <span class="list-aducation rob"
+                    >December 2021 - March 2022: JS/FE Pre-School 2021</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="wrap-footer">
+          <div class="git-hub">
+            <a href="https://github.com/DimaTeniuta" target="_blank">
+              <img src="./assets/svg/Github.svg" alt="img-git" width="60" />
+            </a>
+          </div>
+          <div class="year">
+            <span class="text-footer">&copy; Dzmitry Tsianiuta 2022</span>
+          </div>
+          <div class="school">
+            <a href="https://rs.school/js/" target="_blank">
+              <img src="./assets/svg/rs_school_js.svg" alt="img-rss" width="160" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
